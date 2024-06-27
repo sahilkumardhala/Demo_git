@@ -1,0 +1,91 @@
+PS C:\Users\HP\Desktop\one\Demo_git> cd ..      
+PS C:\Users\HP\Desktop\one> cd Demo_git
+PS C:\Users\HP\Desktop\one\Demo_git> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index2.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\HP\Desktop\one\Demo_git> git add .
+PS C:\Users\HP\Desktop\one\Demo_git> git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\HP\Desktop\one\Demo_git> git commit -m "2nd commit"
+[main 90d7523] 2nd commit
+ 1 file changed, 11 insertions(+)
+ create mode 100644 index2.html
+PS C:\Users\HP\Desktop\one\Demo_git> git push -u origin main   
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 305 bytes | 152.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:sahilkumardhala/Demo_git.git
+   2a392cd..90d7523  main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\HP\Desktop\one\Demo_git> git commit -m "2nd commit"
+ *  History restored 
+PS C:\Users\HP\Desktop\one> cd Demo_git
+PS C:\Users\HP\Desktop\one\Demo_git> git add .
+PS C:\Users\HP\Desktop\one\Demo_git> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   git all process.jpg
+
+PS C:\Users\HP\Desktop\one\Demo_git> git commit -m "2nd commit"      
+[main 6bdd30f] 2nd commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 git all process.jpg
+PS C:\Users\HP\Desktop\one\Demo_git> git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 279.06 KiB | 1.09 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object. 
+To github.com:sahilkumardhala/Demo_git.git
+   90d7523..6bdd30f  main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\HP\Desktop\one\Demo_git> git add . 
+PS C:\Users\HP\Desktop\one\Demo_git> git commit -m "2nd commit"
+[main 5a45444] 2nd commit
+ 1 file changed, 1 insertion(+)
+PS C:\Users\HP\Desktop\one\Demo_git> git commit -m "4nd commit"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\HP\Desktop\one\Demo_git> git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object. 
+To github.com:sahilkumardhala/Demo_git.git
+   6bdd30f..5a45444  main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\HP\Desktop\one\Demo_git> git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 1.02 KiB | 38.00 KiB/s, done.
+From github.com:sahilkumardhala/Demo_git
+ * branch            main       -> FETCH_HEAD
+   5a45444..2c2ac00  main       -> origin/main
+Updating 5a45444..2c2ac00
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\HP\Desktop\one\Demo_git> 
