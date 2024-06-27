@@ -1,4 +1,4 @@
 # Demo_git
 This is my demo repo.
 "Hello!, World."
-![image](git all process.jpg)
+![image](https://github.com/sahilkumardhala/Demo_git/blob/main/git%20all%20process.jpg)
